@@ -1,0 +1,49 @@
+
+a{
+    font-family: Georgia;
+    text-decoration: none;
+    color: #FFA07A;
+    background-color: black;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+body {
+    background-image: url('IMG_2910.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+.centerBox {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #21ada8; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: white; /* Background color */
+}
+
+.form {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #21ada8;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

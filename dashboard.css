@@ -1,0 +1,10 @@
+@import url(main_stylesheet.css);
+
+
+
+.button-align{
+    text-align: center;
+    display: inline-table;
+    margin-top: 50px;
+    margin-right: 50px;
+}

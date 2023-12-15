@@ -1,0 +1,104 @@
+body{
+    background-image: url(fantasy.jpg);
+    background-size: cover;
+}
+
+h1{
+    margin-bottom: 120px;
+    text-align: center;
+    font-family: Georgia;
+    color: #FFA07A;
+    /* we can add the size of the font well decide on the go */
+}
+
+h2{
+    margin-bottom: 120px;
+    text-align: center;
+    font-family: Georgia;
+    color: #FFA07A;
+}
+
+h3{
+    text-align: center;
+    font-family: Georgia;
+    color: #FFA07A;
+}
+
+label{
+    font-family: Georgia;
+    color: #FFA07A;
+    vertical-align: middle;
+}
+
+
+.not-button{
+    text-decoration: none;
+}
+.button-center{
+    text-align: center;
+}
+
+
+
+input[type=submit]{
+    font-family: Georgia;
+    background-color: black;
+    border-radius: 25%;
+    border-color: white;
+    color: #FFA07A;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+input{
+    font-family: Georgia;
+    background-color: black;
+    color: #FFA07A;  
+}
+
+select{
+    font-family: Georgia;
+    background-color: black;
+    color: #FFA07A;  
+}
+
+a{
+    font-family: Georgia;
+    text-decoration: none;
+    color: #FFA07A;
+    background-color: black;
+    border-style: solid;
+    border-radius: 25%;
+    border-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+p{
+    font-family: Georgia;
+    text-align: center;
+    color: #FFA07A; 
+}
+
+ th, td {
+    border: 1px solid;
+    color: #FFA07A; 
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid;
+    color: #FFA07A; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #idbox {
+    padding: 5px;
+    color: #FFA07A;
+  }

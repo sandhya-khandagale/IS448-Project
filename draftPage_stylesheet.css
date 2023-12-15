@@ -1,0 +1,38 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-image: url(BlueBackground.JPG);
+  background-size: 100%;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-image: url(stadium.png);
+  background-size: 100%;
+}
+
+/* Centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+  font-family: Georgia;
+  color: #FFA07A;
+}

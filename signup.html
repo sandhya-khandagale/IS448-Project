@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main_stylesheet.css" title="style" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js"></script>
+    <script type="text/javascript" src="validate.js"></script>
+</head>
+
+<body>
+    <h2>Sign Up</h2>
+
+    <div class = "button-center">
+
+    <form action="signup.php" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="campusID">Campus ID (Format: XX00000):</label>
+        <input type="text" id="campusID" name="campusID" onblur="validateCampID(this.value)">
+        <span id="idbox"></span> </td><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+
+        <input type="submit" value="Sign Up">
+        </form>
+
+        <br>
+        <p> <a href = "login.html"> Login </a></p>
+
+    </div>
+</body>
+</html>

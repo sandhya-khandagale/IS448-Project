@@ -1,0 +1,15 @@
+@import url(main_stylesheet.css);
+
+.homepage{
+    text-align: center;
+    font-family: Georgia;
+    color: #FFA07A;
+    margin-bottom: 0;
+}
+
+.button-align{
+    text-align: center;
+    display: inline-table;
+    margin-top: 50px;
+    margin-right: 50px;
+}
